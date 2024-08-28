@@ -30,8 +30,7 @@ export const generateTemplate = (directory, template) => {
   }
   create(template, directory, structure, (err) => {
     if (err) throw err;
-    console.log("Operation completed successfully");
   });
 
-  return;
+  return `Your project has been successfully generated at ${directory}`;
 };

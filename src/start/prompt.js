@@ -59,5 +59,5 @@ import { generateTemplate } from "../gen/generateTemplate.js";
   }
 
   cmd.close();
-  generateTemplate(pth, ans.trim());
+  console.log(generateTemplate(pth, ans.trim()));
 })();

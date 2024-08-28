@@ -43,7 +43,6 @@ export const create = (template, dir, structure, cb = null) => {
     fs.mkdir(pth, (err) => {
       if (err) return cb(err);
       let curr_key = pth.split("/")[pth.split("/").length - 1];
-      console.log(curr_key);
       if (Object.getOwnPropertyNames(currentTemplate.files).includes(curr_key)) {
         fileFactory(currentTemplate.files[curr_key], pth);
       }
