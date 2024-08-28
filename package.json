@@ -1,0 +1,26 @@
+{
+  "name": "filesystem_templategenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon node src/app.js"
+  },
+  "keywords": [
+    "Files",
+    "File",
+    "Management",
+    "File",
+    "System",
+    "Generator",
+    "Template",
+    "Generator",
+    "Backend"
+  ],
+  "author": "Lefter Sotiri",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
